@@ -52,7 +52,10 @@ export const App = () => {
               view="primary-medium"
               color="secondary"
               style={{ textDecoration: 'underline' }}
-              onClick={() => setStep('init')}
+              onClick={() => {
+                window.gtag('event', '4920_what_is_var5');
+                setStep('init');
+              }}
             >
               👀 Что такое Альфа Джекпот?
             </Typography.Text>

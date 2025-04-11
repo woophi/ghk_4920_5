@@ -147,7 +147,7 @@ export const App = () => {
         <div className={appSt.row}>
           <CDNIcon name="glyph_ticket-star_m" />
 
-          <Typography.Text view="primary-medium">Оплачивайте участие кэшбеком, а не рублями</Typography.Text>
+          <Typography.Text view="primary-medium">Оплачивайте участие милями, а не рублями</Typography.Text>
         </div>
         <div className={appSt.row}>
           <CDNIcon name="glyph_ticket-star_m" />
